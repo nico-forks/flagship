@@ -3026,25 +3026,24 @@
   dependencies:
     invariant "^2.2.4"
 
-"@sinonjs/commons@^1", "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
-  integrity sha512-892K+kWUUi3cl+LlqEWIDrhvLgdL79tECi8JZUyq6IviKy/DNhuzCRlbHUjxK89f4ypPMMaFnFuR9Ie6DoIMsw==
+"@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.8.1":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
+  integrity sha512-sruwd86RJHdsVf/AtBoijDmUqJp3B6hF/DGC23C+JaegnDHaZyewCjoVGTdg3J0uz3Zs7NnIT05OBOmML72lQw==
   dependencies:
     type-detect "4.0.8"
 
-"@sinonjs/formatio@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@sinonjs/formatio/-/formatio-4.0.1.tgz#50ac1da0c3eaea117ca258b06f4f88a471668bdb"
-  integrity sha512-asIdlLFrla/WZybhm0C8eEzaDNNrzymiTqHMeJl6zPW2881l3uuVRpm0QlRQEjqYWv6CcKMGYME3LbrLJsORBw==
+"@sinonjs/fake-timers@^6.0.0", "@sinonjs/fake-timers@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-6.0.1.tgz#293674fccb3262ac782c7aadfdeca86b10c75c40"
+  integrity sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
   dependencies:
-    "@sinonjs/commons" "^1"
-    "@sinonjs/samsam" "^4.2.0"
+    "@sinonjs/commons" "^1.7.0"
 
-"@sinonjs/samsam@^4.2.0", "@sinonjs/samsam@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-4.2.2.tgz#0f6cb40e467865306d8a20a97543a94005204e23"
-  integrity sha512-z9o4LZUzSD9Hl22zV38aXNykgFeVj8acqfFabCY6FY83n/6s/XwNJyYYldz6/9lBJanpno9h+oL6HTISkviweA==
+"@sinonjs/samsam@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-5.3.1.tgz#375a45fe6ed4e92fca2fb920e007c48232a6507f"
+  integrity sha512-1Hc0b1TtyfBu8ixF/tpfSHTVWKwCBLY4QJbkgnE7HcwyvT2xArDxb4K7dMgqRm3szI+LJbzmW/s4xxEhv6hwDg==
   dependencies:
     "@sinonjs/commons" "^1.6.0"
     lodash.get "^4.4.2"
@@ -5789,7 +5788,12 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001135:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001148.tgz#dc97c7ed918ab33bf8706ddd5e387287e015d637"
   integrity sha512-E66qcd0KMKZHNJQt9hiLZGE3J4zuTqE1OnU53miEVtylFbwOEmeA5OsRu90noZful+XGSQOni1aT2tiqu/9yYw==
 
-caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001173:
+caniuse-lite@^1.0.30001125:
+  version "1.0.30001185"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001185.tgz#3482a407d261da04393e2f0d61eefbc53be43b95"
+  integrity sha512-Fpi4kVNtNvJ15H0F6vwmXtb3tukv3Zg3qhKkOGUq7KJ1J6b9kf4dnNgtEAFXhRsJo0gNj9W60+wBvn0JcTvdTg==
+
+caniuse-lite@^1.0.30001173:
   version "1.0.30001179"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
   integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
@@ -7513,15 +7517,20 @@ ejs@^3.1.2:
   dependencies:
     jake "^10.6.1"
 
-electron-to-chromium@^1.3.564, electron-to-chromium@^1.3.634:
-  version "1.3.642"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.642.tgz#8b884f50296c2ae2a9997f024d0e3e57facc2b94"
-  integrity sha512-cev+jOrz/Zm1i+Yh334Hed6lQVOkkemk2wRozfMF4MtTR7pxf3r3L5Rbd7uX1zMcEqVJ7alJBnJL7+JffkC6FQ==
+electron-to-chromium@^1.3.564:
+  version "1.3.657"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.657.tgz#a9c307f2612681245738bb8d36d997cbb568d481"
+  integrity sha512-/9ROOyvEflEbaZFUeGofD+Tqs/WynbSTbNgNF+/TJJxH1ePD/e6VjZlDJpW3FFFd3nj5l3Hd8ki2vRwy+gyRFw==
 
 electron-to-chromium@^1.3.571:
   version "1.3.582"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.582.tgz#1adfac5affce84d85b3d7b3dfbc4ade293a6ffc4"
   integrity sha512-0nCJ7cSqnkMC+kUuPs0YgklFHraWGl/xHqtZWWtOeVtyi+YqkoAOMGuZQad43DscXCQI/yizcTa3u6B5r+BLww==
+
+electron-to-chromium@^1.3.634:
+  version "1.3.642"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.642.tgz#8b884f50296c2ae2a9997f024d0e3e57facc2b94"
+  integrity sha512-cev+jOrz/Zm1i+Yh334Hed6lQVOkkemk2wRozfMF4MtTR7pxf3r3L5Rbd7uX1zMcEqVJ7alJBnJL7+JffkC6FQ==
 
 element-resize-detector@^1.2.1:
   version "1.2.1"
@@ -8190,9 +8199,9 @@ fast-levenshtein@~2.0.6:
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
 fastq@^1.6.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.10.0.tgz#74dbefccade964932cdf500473ef302719c652bb"
-  integrity sha512-NL2Qc5L3iQEsyYzweq7qfgy5OtXCmGzGvhElGEd/SoFWEMOEczNh5s5ocaF01HDetxz+p8ecjNPA6cZxxIHmzA==
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.10.1.tgz#8b8f2ac8bf3632d67afcd65dac248d5fdc45385e"
+  integrity sha512-AWuv6Ery3pM+dY7LYS8YIaCiQvUaos9OB1RyNgaOWnaX+Tik7Onvcsf8x8c+YtDeT0maYLniBip2hox5KtEXXA==
   dependencies:
     reusify "^1.0.4"
 
@@ -11388,7 +11397,7 @@ loglevelnext@^1.0.1, loglevelnext@^1.0.2:
     es6-symbol "^3.1.1"
     object.assign "^4.1.0"
 
-lolex@^5.0.0, lolex@^5.0.1, lolex@^5.1.2:
+lolex@^5.0.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-5.1.2.tgz#953694d098ce7c07bc5ed6d0e42bc6c0c6d5a367"
   integrity sha512-h4hmjAvHTmd+25JSwrtTIuwbKdwg5NzZVRMLn9saij4SZaepCrTCxPr35H/3bjwfMJtN+t3CX8672UIkglz28A==
@@ -12480,16 +12489,15 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-nise@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/nise/-/nise-3.0.1.tgz#0659982af515e5aac15592226246243e8da0013d"
-  integrity sha512-fYcH9y0drBGSoi88kvhpbZEsenX58Yr+wOJ4/Mi1K4cy+iGP/a73gNoyNhu5E9QxPdgTlVChfIaAlnyOy/gHUA==
+nise@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/nise/-/nise-4.0.4.tgz#d73dea3e5731e6561992b8f570be9e363c4512dd"
+  integrity sha512-bTTRUNlemx6deJa+ZyoCUTRvH3liK5+N6VQZ4NIw90AgDXY6iPnsqplNFf6STcj+ePk0H/xqxnP75Lr0J0Fq3A==
   dependencies:
     "@sinonjs/commons" "^1.7.0"
-    "@sinonjs/formatio" "^4.0.1"
+    "@sinonjs/fake-timers" "^6.0.0"
     "@sinonjs/text-encoding" "^0.7.1"
     just-extend "^4.0.2"
-    lolex "^5.0.1"
     path-to-regexp "^1.7.0"
 
 no-case@^2.2.0:
@@ -14294,9 +14302,9 @@ react-content-loader@^5.1.2:
   integrity sha512-Kr4wWisiL0qcdbzVWZx/puyCfTP1PiTTtR7N4B7mikTeY2wf5TMgMykUQyaEUW422IDUU9VJWfewSm9hIRwTiw==
 
 react-dev-utils@^10.0.0, react-dev-utils@^11.0.0:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.1.tgz#30106c2055acfd6b047d2dc478a85c356e66fe45"
-  integrity sha512-rlgpCupaW6qQqvu0hvv2FDv40QG427fjghV56XyPcP5aKtOAPzNAhQ7bHqk1YdS2vpW1W7aSV3JobedxuPlBAA==
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.2.tgz#98aed16ef50f808ee17b32def75eb15f89655802"
+  integrity sha512-xG7GlMoYkrgc2M1kDCHKRywXMDbFnjOB+/VzpytQyYBusEzR8NlGTMmUbvN86k94yyKu5XReHB8eZC2JZrNchQ==
   dependencies:
     "@babel/code-frame" "7.10.4"
     address "1.1.2"
@@ -14317,7 +14325,7 @@ react-dev-utils@^10.0.0, react-dev-utils@^11.0.0:
     open "^7.0.2"
     pkg-up "3.1.0"
     prompts "2.4.0"
-    react-error-overlay "^6.0.8"
+    react-error-overlay "^6.0.9"
     recursive-readdir "2.2.2"
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
@@ -14379,10 +14387,10 @@ react-draggable@^4.0.3:
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-react-error-overlay@^6.0.8:
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
-  integrity sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw==
+react-error-overlay@^6.0.9:
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
+  integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
 react-fast-compare@^2.0.1:
   version "2.0.4"
@@ -15769,17 +15777,16 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sinon@^8.0.2:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-8.1.1.tgz#21fffd5ad0a2d072a8aa7f8a3cf7ed2ced497497"
-  integrity sha512-E+tWr3acRdoe1nXbHMu86SSqA1WGM7Yw3jZRLvlCMnXwTHP8lgFFVn5BnKnF26uc5SfZ3D7pA9sN7S3Y2jG4Ew==
+sinon@^9.2.4:
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-9.2.4.tgz#e55af4d3b174a4443a8762fa8421c2976683752b"
+  integrity sha512-zljcULZQsJxVra28qIAL6ow1Z9tpattkCTEJR4RBP3TGc00FcttsP5pK284Nas5WjMZU5Yzy3kAIp3B3KRf5Yg==
   dependencies:
-    "@sinonjs/commons" "^1.7.0"
-    "@sinonjs/formatio" "^4.0.1"
-    "@sinonjs/samsam" "^4.2.2"
+    "@sinonjs/commons" "^1.8.1"
+    "@sinonjs/fake-timers" "^6.0.1"
+    "@sinonjs/samsam" "^5.3.1"
     diff "^4.0.2"
-    lolex "^5.1.2"
-    nise "^3.0.1"
+    nise "^4.0.4"
     supports-color "^7.1.0"
 
 sisteransi@^1.0.4, sisteransi@^1.0.5:
